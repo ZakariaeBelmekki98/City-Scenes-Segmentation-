@@ -1,8 +1,8 @@
-# City-Scenes-Segmentation-
-This repo contains the code for a U-Net model with Redsidual Blocks for segmenting city scenes from the Cityscapes dataset. The model is based on the architecture adopted in the paper "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks" [link]. 
+# City-Scenes-Segmentation
+This repo contains the code for a Deep Learning model, the U-Net model with Redsidual Blocks for segmenting city scenes from the Cityscapes dataset. The model is based on the architecture adopted in the paper "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks" [https://arxiv.org/abs/1703.10593]. 
 
 ## Model Description and Setting
-The model uses Contracting blocks in the beginning, then a series of Residual Blocks and then a Expanding blocks. This architecture seems to be working better in this setting than a standard U-Net []. 
+The model uses Contracting blocks in the beginning, then a series of Residual Blocks and then a Expanding blocks. This architecture seems to be working better in this setting than a standard U-Net. 
 
 The model was trained for 100 epochs using a batch size of 4. The Adam optimizer was used with a learning rate of 0.0002.
 
